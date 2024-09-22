@@ -104,12 +104,13 @@
           {
             "attrs": {
               "text": {
-                "text": "EV_LED_01_ON\n[blink_ev == false]",
+                "text": "EV_LED_01_ON\n",
                 "fill": "#555555"
               }
             },
             "position": {
-              "offset": -75,
+              "distance": 0.5588235294117647,
+              "offset": -55,
               "angle": 0
             }
           },
@@ -249,7 +250,7 @@
         "z": 374,
         "vertices": [
           {
-            "x": 210,
+            "x": 160,
             "y": 1000
           }
         ],
@@ -422,11 +423,7 @@
         "marker": [
           "Failed to parse Expression 'blink_ev'."
         ],
-        "attrs": {
-          "line": {
-            "strokeWidth": 4
-          }
-        }
+        "attrs": {}
       }
     ]
   },
